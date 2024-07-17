@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { setFormData } from '../reducers/formSlice';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { Alert } from 'react-bootstrap';
 
 const Jobs = () => {
